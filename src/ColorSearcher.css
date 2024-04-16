@@ -1,0 +1,52 @@
+.search-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.inputBox {
+  padding: 4px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+
+.searchBtn {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-list {
+  height: 400px;
+  overflow: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+.colorbox {
+  height: 20px;
+  width: 25px;
+}
+
+.color-name-container {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
